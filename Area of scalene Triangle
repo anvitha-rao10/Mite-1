@@ -1,0 +1,15 @@
+ #include<stdio.h>
+    #include<math.h>
+    int main(){
+                   int side1, side2, angl;
+                   float areas;
+                   printf("Enter Side1 : ");
+                   scanf("%d", &side1);
+                   printf("\n Enter Side2 : ");
+                   scanf("%d", &side2);
+                   printf("\n Enter the angle : ");
+                   scanf("%d", &angl);
+                   areas = (side1 * side2 * sin((M_PI / 180) * angl)) / 2;
+    printf("\n The Area of Scalene Triangle is : %f", areas);
+    return (0);
+    }
